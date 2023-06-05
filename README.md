@@ -21,6 +21,8 @@ Your job is to complete a single blog post: "What is a Goroutine?". You're expec
 * Write the blog post in markdown (`/content/what-is-a-goroutine.md`). We are assessing your ability to craft an informative and engaging blog post, so do your best!
 * Style the site, but we are assessing you on your UI/UX skills so do your best!
 
+Our goal is to learn about your skills in building a simple learning experience. We're focused on communication and front-end skills here, the in-person interview is where we'll cover backend stuff.
+
 ## How to start
 
 1. Fork this repo
