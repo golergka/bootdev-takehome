@@ -6,7 +6,7 @@
     "lint": "eslint . --ext .js,.html",
     "lint:fix": "eslint . --fix --ext .js,.html"
   },
-  "repository": "https://github.com/bootdotdev/blog",
+  "repository": "https://github.com/bootdotdev/takehome",
   "author": "wagslane <lane.c.wagner@gmail.com>",
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.2",
