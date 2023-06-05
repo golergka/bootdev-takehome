@@ -31,3 +31,7 @@ Our goal is to learn about your skills in building a simple learning experience.
 4. `npm install`
 5. Make sure you have [hugo installed](https://gohugo.io/installation/), at least version `v0.110.0`
 6. `npm run serve`
+
+## How to submit
+
+Send a link to your forked github repo back to `hello at boot .dev` in an email.
