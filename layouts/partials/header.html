@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title .Title }}</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>
-    {{ title .Title }}
-  </title>
+    {{ $tailcss := resources.Get "css/tail-out.css" }}
+    <link href="{{ $tailcss.RelPermalink }}" rel="stylesheet" />
 
-  {{ $tailcss := resources.Get "css/tail-out.css" }}
-  <link href="{{ $tailcss.RelPermalink }}" rel="stylesheet">
+    {{ $stylescss := resources.Get "css/styles.css" }}
+    <link href="{{ $stylescss.RelPermalink }}" rel="stylesheet" />
 
-  {{ $stylescss := resources.Get "css/styles.css" }}
-  <link href="{{ $stylescss.RelPermalink }}" rel="stylesheet">
+    {{ $highlightcss := resources.Get "css/syntax.css" }}
+    <link href="{{ $highlightcss.RelPermalink }}" rel="stylesheet" />
 
-  {{ partial "favicons.html" . }}
-</head>
+    {{ partial "favicons.html" . }}
+  </head>
 
-<body>
-  <div class="container">
+  <body>
+    <div class="container">
