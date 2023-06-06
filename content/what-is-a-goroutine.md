@@ -2,8 +2,6 @@
 title: "What is a Goroutine?"
 author: Max Yankov
 date: "2020-02-06"
-images:
-  - "/img/Go_Lang_Gopher.webp"
 ---
 
 Welcome to our exploration of one of Go's most exciting features: Goroutines, the heart of Go's approach to concurrency. In this post, we'll walk you through why goroutines matter, illustrate how to use them with practical examples, and highlight common patterns and pitfalls for newcomers.
