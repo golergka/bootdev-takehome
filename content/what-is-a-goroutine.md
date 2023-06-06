@@ -45,7 +45,7 @@ _[Open in go playground](https://play.golang.com/p/hBdza5otbCJ)_
 
 When you run this program, you'll see "Hello from main!" printed first, then "Hello from goroutine!". Notice `time.Sleep(time.Second)` at the end — is to make sure the main function doesn't return before the goroutine has a chance to run.
 
-## How are goroutines used?
+## Typical use patterns
 
 You can use goroutines for many tasks. However, two common patterns of using goroutines in web servers are the _never-ending loop_ and the _fire-and-forget_.
 
