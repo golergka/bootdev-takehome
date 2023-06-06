@@ -88,7 +88,7 @@ In this code, the `healthCheck` function keeps running in the background, period
 
 Fire and forget is a pattern used for tasks that need to be executed in the background, but don't need to be monitored. It's typically used to handle incoming requests, or, for example, logging:
 
-```
+```go
 package main
 
 import (
